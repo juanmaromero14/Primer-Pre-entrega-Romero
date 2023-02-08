@@ -1,0 +1,83 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.App{ max-width: 1550px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-sizing:0 2px 6px grey;
+  padding: 0 15px;
+  box-sizing: border-box;}
+
+  /* NavBar */
+  header{
+width: 97%;
+min-height: 100px;
+max-width: 1530px;
+overflow: hidden;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+position: fixed;
+box-sizing: border-box ;
+background-color: white;
+box-shadow: 0px 5px 10px gray;
+  }
+  a{
+    color: black;
+    text-align: none;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  li{
+    list-style: none;
+  }
+  header ul {
+    display:flex;
+    padding: 0;
+    margin:0;
+  }
+  header ul li{
+    padding: 0 1rem;
+  }
+  header ul li a{
+    font-weight: bold;
+  }
+  header .cart{
+    position: relative;
+    cursor: pointer;
+  }
+  header .cart box-icon{
+    width: 45px;
+    height: 45px;
+  }
+  header .cart span{
+    position: absolute;
+    top: -1rem;
+    width: 2.5rem;
+    right: -1.5rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: black;
+  }
